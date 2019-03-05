@@ -1,5 +1,7 @@
 # Internet of Things (IoT) Project – Arduino Backpack Alarm
-I always met such situation like while studying in the library or sitting down in a public area with my backpack. I wanted to leave my things away and go to washroom or buy something to drink. But I was always feared someone might steal my backpack. After I learned Arduino course, I got an idea to create a backpack alarm. I used the Accelerometer sensor and Arduino board to detect the movement. when there has be movement of more than 10 degrees, it sounds an alarm. And I also use Wifi module to upload sensor data to the Thing Speak web server so that I can monitor the orientation. Now, I don't have to worry about bag theft anymore.
+I always met such situation like while studying in the library or sitting down in a public area with my backpack. I wanted to leave my things away and go to washroom or buy something to drink. But I was always feared someone might steal my backpack.     
+After I learned Arduino course, I got an idea to create a backpack alarm. I used the Accelerometer sensor and Arduino board to detect the movement. when there has be movement of more than 10 degrees, it sounds an alarm. And I also use Wifi module to upload sensor data to the Thing Speak web server so that I can monitor the orientation.      
+Now, I don't have to worry about bag theft anymore.
 
 ## Getting Started
 
@@ -11,25 +13,27 @@ Arduino Software
 
 ### Step 1: Wire up the Arduino
 
-Connect the gyro-mpu6050 board to the Arduino like so:
-VCC - VCC
-GND - GND
-SDA - SCL
-SCL - SDA
+Connect the gyro-mpu6050 board to the Arduino like so:    
+VCC - VCC    
+GND - GND        
+SDA - SCL      
+SCL - SDA     
+
+
 ![](mdPics/gyro-mpu6050.png)
 
 
-Connect the ESP8266-WiFi module to the Arduino like so:
-GND ------ GND
-VCC ------ VCC
-RXD ------ TX
-TXD ------ RX
+Connect the ESP8266-WiFi module to the Arduino like so:       
+GND ------ GND      
+VCC ------ VCC      
+RXD ------ TX        
+TXD ------ RX       
 ![](mdPics/ESP8266-WiFi-ESP-01-aansluiten-via-Arduino.jpg)
 
 ### Step 2: Install the Libraries
 
-Download the [MPU6050 Library](https://github.com/tockn/MPU6050_tockn) library as zip files.
-Open the Arduino IDE.
+Download the [MPU6050 Library](https://github.com/tockn/MPU6050_tockn) library as zip files.       
+Open the Arduino IDE.       
 Go to Sketch > Include Library > Add.ZIP Library...
 
 ## Test it!
